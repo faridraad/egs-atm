@@ -1,4 +1,4 @@
-# Simple Shop APIs
+# EGS ATM
 Simple Atm service and client created by spring boot!
 
 I create a Spring Boot project(Rest APIs). You need the following tools and technologies to develop the same.
