@@ -56,5 +56,5 @@ and dpendencies:
 3. After successful authentication User capable to do standard list of operations with ATM: Cash deposit, Cash withdrawal, Check balance
 4. Integration and Unit Test
 5. Swagger 
-6. Microservice atm and bank service are present
+6. ATM and Bank services are present stand up microservice architecture
 7. Docker file
