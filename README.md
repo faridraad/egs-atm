@@ -7,6 +7,7 @@ I create a Spring Boot project(Rest APIs). You need the following tools and tech
 - Lombok 1.18.20
 - MapStruct 1.4.2.Final
 - JavaSE 17
+- MongoDB
 
 # Dependencies
 Open the pom.xml file for spring configuration:
