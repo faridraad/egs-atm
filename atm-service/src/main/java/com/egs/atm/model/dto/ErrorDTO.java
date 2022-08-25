@@ -1,0 +1,21 @@
+package com.egs.atm.model.dto;
+
+import com.egs.atm.model.domain.ValidationError;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.Set;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class ErrorDTO {
+    private Set<ValidationError> errors;
+    private String message;
+    private String logFingerPrint;
+}
