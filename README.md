@@ -53,8 +53,7 @@ and dpendencies:
 1. User capable to set own preferred authentication method (example - PIN, fingerprint.)
 2. Simplistic credit card validation mechanism when card number is provided ("Block" card after three unsuccessful attempts)
 3. After authentication is successful initialized User capable to do standard list of operations with ATM: Cash deposit, Cash withdrawal, Check balance
-4. Unit Test
-5. Integration Test
-6. Swagger 
-7. Microservice atm and bank service are present
-8. Docker file
+4. Integration and Unit Test
+5. Swagger 
+6. Microservice atm and bank service are present
+7. Docker file
